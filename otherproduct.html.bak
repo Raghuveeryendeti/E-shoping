@@ -1,0 +1,250 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>E-SHOP</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Nuevo Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="applijegleryion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />	
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- start menu -->
+<link href="css/megamenu.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="js/megamenu.js"></script>
+<script>$(document).ready(function(){$(".megamenu").megamenu();});</script>
+<script src="js/menu_jquery.js"></script>
+<script src="js/simpleCart.min.js"> </script>
+<!--web-fonts-->
+ <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,300italic,600,700' rel='stylesheet' type='text/css'>
+ <link href='//fonts.googleapis.com/css?family=Roboto+Slab:300,400,700' rel='stylesheet' type='text/css'>
+<!--//web-fonts-->
+ <script src="js/scripts.js" type="text/javascript"></script>
+<script src="js/modernizr.custom.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<!--/script-->
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+<!-- the jScrollPane script -->
+<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+		<script type="text/javascript" id="sourcecode">
+			$(function()
+			{
+				$('.scroll-pane').jScrollPane();
+			});
+		</script>
+<!-- //the jScrollPane script -->
+</head>
+<body>
+<!--start-home-->
+<!-- header_top -->
+<div class="top_bg" id="home">
+	<div class="container">
+		<div class="header_top">
+			<div class="top_right">
+				<ul>
+					<li><a href="#">help</a></li>
+					<li><a href="account.html">Sign in</a></li>
+					<li><a href="contact.html">Contact</a></li>
+			</div>
+			<div class="top_left">
+				<h6><span></span> Call us : 032 2352 782</h6>
+			</div>
+				<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!-- header -->
+<div class="header_bg">
+   <div class="container">
+	<div class="header">
+	  <div class="head-t">
+		 <div class="logo">
+			  <a href="index.html"><h1>E- <span>Shop</span></h1> </a>
+		  </div>
+		  <div class="header_right">
+			<div class="cart box_1">
+				<a href="checkout.html">
+				<div class="total">
+					
+				</a>
+				<p><a href="javascript:;" class="simpleCart_empty"></a></p>
+				<div class="clearfix"> </div>
+			</div>				 
+		</div>
+		<div class="clearfix"></div>	
+	    </div>
+		<!--start-header-menu-->
+		
+ <!--start-content-->
+<!--products-->
+	<div class="products">
+		<div class="container">
+			<div class="products-grids">
+				<div class="col-md-8 products-grid-left">
+					<div class="products-grid-lft">
+						<div class="products-grd">
+							<div class="p-one simpleCart_shelfItem prd">
+								<a href="others1.html">
+										<img src="images/o1.png" alt="" class="img-responsive" />
+								</a>
+								<h4>Fitbit</h4>
+								<p><a class="item_add" href="#"><i class="glyphicon glyphicon-shopping-cart"></i> <span class=" item_price valsa">$50</span></a></p>
+								<div class="pro-grd">
+									<a href="others1.html">Quick View</a>
+								</div>
+							</div>	
+						</div>
+						<div class="products-grd">
+							<div class="p-one simpleCart_shelfItem prd">
+								<a href="others2.html">
+										<img src="images/o2.png" alt="" class="img-responsive" />
+								</a>
+								<h4>SONY</h4>
+								<p><a class="item_add" href="#"><i class="glyphicon glyphicon-shopping-cart"></i> <span class=" item_price valsa">$60</span></a></p>
+								<div class="pro-grd">
+									<a href="others2.html">Quick View</a>
+								</div>
+							</div>	
+						</div>
+						<div class="products-grd">
+							<div class="p-one simpleCart_shelfItem prd">
+								<a href="others3.html">
+										<img src="images/o3.png" alt="" class="img-responsive" />
+								</a>
+								<h4>TITAN</h4>
+								<p><a class="item_add" href="#"><i class="glyphicon glyphicon-shopping-cart"></i> <span class=" item_price valsa">$70</span></a></p>
+								<div class="pro-grd">
+									<a href="others3.html">Quick View</a>
+								</div>
+							</div>	
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="products-grid-lft">
+						<div class="products-grd">
+							<div class="p-one simpleCart_shelfItem prd">
+								<a href="others4.html">
+										<img src="images/o4.png" alt="" class="img-responsive" />
+								</a>
+								<h4>Fitbit Aria</h4>	
+								<p><a class="item_add" href="#"><i class="glyphicon glyphicon-shopping-cart"></i> <span class=" item_price valsa">$80</span></a></p>
+								<div class="pro-grd">
+									<a href="others4.html">Quick View</a>
+								</div>
+							</div>	
+						</div>
+						<div class="products-grd">
+							<div class="p-one simpleCart_shelfItem prd">
+								<a href="others5.html">
+										<img src="images/o5.png" alt="" class="img-responsive" />
+								</a>
+								<h4>SONY</h4>
+								<p><a class="item_add" href="#"><i class="glyphicon glyphicon-shopping-cart"></i> <span class=" item_price valsa">$90</span></a></p>
+								<div class="pro-grd">
+									<a href="others5.html">Quick View</a>
+								</div>
+
+							</div>	
+						</div>
+						<div class="products-grd">
+							<div class="p-one simpleCart_shelfItem prd">
+								<a href="others6.html">
+										<img src="images/o6.png" alt="" class="img-responsive" />
+								</a>
+								<h4>SAMSUNG CAM</h4>
+								<p><a class="item_add" href="#"><i class="glyphicon glyphicon-shopping-cart"></i> <span class=" item_price valsa">$100</span></a></p>
+								<div class="pro-grd">
+									<a href="others6.html">Quick View</a>
+								</div>
+							</div>	
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					
+						
+						
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+									<div class="col-md-4 products-grid-right">
+					<div class="w_sidebar">
+						
+						<section  class="sky-form">
+							<h4>catogories</h4>
+							<div class="row1 scroll-pane">
+								<div class="col col-4">
+									<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>TV</label>
+								</div>
+								<div class="col col-4">
+									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Computers</label>
+									
+									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Mobiles</label>
+									
+									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Cloths </label>
+									<label class="checkbox"><input type="checkbox" name="checkbox" ><i></i>Others</label>
+									
+									
+									
+								</div>
+							</div>
+						</section>
+						
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+<!-- //products -->
+	  <!--start-image-cursuals-->
+                  <ul class="socials">
+				    <li><a class="soc1" href="#"></a></li>
+				    <li><a class="soc2" href="#"></a></li>
+				    <li><a class="soc3" href="#"></a></li>
+				</ul>
+	 <!--/start-copyright-->
+	 <div class="copy">
+		<div class="container">
+			<p>&copy; 2015 E-SHOP. All Rights Reserved </a> </p>
+		</div>
+	</div>
+	 <!--//end-copyright-->
+	<!--end-footer-->
+ <!--//end-content-->
+    	<!--start-smooth-scrolling-->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+
+</body>
+</html>
